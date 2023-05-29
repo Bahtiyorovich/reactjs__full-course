@@ -1,4 +1,4 @@
-import { Event, FormSelect, Tolbar, UseState } from "./components"
+import { Accordion, AddItem, DeleteHandle, Event, FormChange, FormSelect, OneHandleChange, PointerMove, SelectedForm, SubmitForm, Tolbar, UseImmer, UseState } from "./components"
 
 const App = () => {
 
@@ -11,7 +11,16 @@ const App = () => {
       {/* <Event message="Upload file" onHandleAlert={handleAlert}/> */}
       {/* <Tolbar/> */}
       {/* <UseState/> */}
-      <FormSelect/>
+      {/* <FormSelect/> */}
+      {/* <PointerMove/> */}
+      {/* <FormChange/> */}
+      {/* <OneHandleChange/> */}
+      {/* <UseImmer/> */}
+      {/* <DeleteHandle/> */}
+      {/* <AddItem/> */}
+      {/* <SubmitForm/> */}
+      {/* <SelectedForm/> */}
+      <Accordion/>
     </div>
   )
 }
