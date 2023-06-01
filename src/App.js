@@ -1,4 +1,4 @@
-import { Accordion, AddItem, DeleteHandle, Event, FormChange, FormSelect, OneHandleChange, PointerMove, SelectedForm, SubmitForm, Tolbar, UseImmer, UseState } from "./components"
+import { Accordion, AddItem, DeleteHandle, Event, FormChange, FormSelect, OneHandleChange, PointerMove, SelectedForm, SubmitForm, TaskApp, Tolbar, UseImmer, UseState } from "./components"
 
 const App = () => {
 
@@ -20,7 +20,8 @@ const App = () => {
       {/* <AddItem/> */}
       {/* <SubmitForm/> */}
       {/* <SelectedForm/> */}
-      <Accordion/>
+      {/* <Accordion/> */}
+      <TaskApp/>
     </div>
   )
 }

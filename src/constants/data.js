@@ -72,3 +72,15 @@ export const sculptureList = [{
     alt: 'A group of bronze hippo sculptures emerging from the sett sidewalk as if they were swimming.'
   }];
   
+
+export const initialTask = [
+  {
+    id:0, text: 'Visit kafka Museum', done: false
+  },
+  {
+    id: 1, text: 'Watch a puppet show', done: false
+  },
+  {
+    id:2, text: 'Lennon wall pic', done: false
+  }
+]
