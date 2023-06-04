@@ -1,4 +1,5 @@
 import { Accordion, AddItem, DeleteHandle, Event, FormChange, FormSelect, OneHandleChange, PointerMove, SelectedForm, SubmitForm, TaskApp, Tolbar, UseImmer, UseState } from "./components"
+import TasksApp from "./components/reducer-with-context/TasksApp"
 
 const App = () => {
 
@@ -21,7 +22,7 @@ const App = () => {
       {/* <SubmitForm/> */}
       {/* <SelectedForm/> */}
       {/* <Accordion/> */}
-      <TaskApp/>
+      <TasksApp/>
     </div>
   )
 }
